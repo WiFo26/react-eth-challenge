@@ -1,28 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import api from '../../data.json'
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
 import NavBar from '../components/NavBar';
 import Experience from '../components/Experience';
-import '../styles/components/App.styl';
 import Skills from '../components/Skills';
 import Academic from '../components/Academic';
 import Interest from '../components/Interest';
 import Language from '../components/Language';
-// import About from '../components/About';
-// import Profile from '../components/Profile';
-// import Experience from '../components/Experience';
-// import Academic from '../components/Academic';
-// import Skills from '../components/Skills';
-// import Interest from '../components/Interest';
-// import Languages from '../components/Languages';
+import '../styles/components/App.styl';
+import getData from '../utils/getData';
+
+const API_URL = 'https://raw.githubusercontent.com/WiFo26/react-eth-challenge/main/data.json'
 
 const App = () => {
   const [data, setData] = useState({})
 
   useEffect(() => {
-    setData(api.data)
+    getData(API_URL)
+      .then(response => setData(response.data))
   }, [])
 
   return (

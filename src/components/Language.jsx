@@ -18,6 +18,7 @@ const Language = ({ languages }) => {
                         return (
                             <LanguageItem
                                 className='Language-item'
+                                key={index}
                                 language={language.name}
                                 url={language.url}
                             />
