@@ -1,0 +1,54 @@
+.Experience-item
+    display: flex
+    align-items: flex-start
+    background: rgba(0, 0, 0, 0.25)
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px
+    padding: 10px
+    min-height: 170px
+    width: 96%
+    margin: 12px 0px 12px 10px
+
+.Experience-item img 
+    width 75px
+    height 75px
+    margin: 10px 20px 0px 20px
+    border-radius: 10px
+
+.experience-info
+    display: flex
+    flex-direction: column
+    text-align: justify
+
+.experience-info > *
+    margin: 3px 0px
+    padding: 0
+
+.dates
+    font-size: 14px
+    margin-bottom: 16px
+
+.job-functions li
+    margin: 0px 0px 8px 0px
+    padding: 0
+    list-style: none
+    font-size: 18px
+
+@media (max-width 768px)
+    .Experience-item
+        display: flex
+        flex-direction: column
+        align-items: center
+        background: rgba(0, 0, 0, 0.25)
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 15px
+        min-height: 170px
+        width: 90%
+        padding: 10px
+        margin: 10px 0px 10px 10px
+    
+    .experience-info
+        text-align: center
+
+    .job-functions li
+        font-size: 14px

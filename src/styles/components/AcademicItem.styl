@@ -1,0 +1,44 @@
+.Academic-item
+    display: flex
+    align-items: flex-start
+    background: rgba(0, 0, 0, 0.25)
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px
+    padding: 10px
+    width: 96%
+    margin: 12px 0px 12px 10px
+
+.Academic-item img 
+    width 75px
+    height 75px
+    margin: 10px 20px 0px 20px
+    border-radius: 10px
+
+.academic-info
+    display: flex
+    flex-direction: column
+    text-align: justify
+
+.academic-info > *
+    margin: 3px 0px
+    padding: 0
+
+.dates
+    font-size: 14px
+    margin-bottom: 16px
+
+@media (max-width 768px)
+    .Academic-item
+        display: flex
+        flex-direction: column
+        align-items: center
+        background: rgba(0, 0, 0, 0.25)
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 15px
+        min-height: 170px
+        width: 90%
+        padding: 10px
+        margin: 10px 0px 10px 10px
+    
+    .academic-info
+        text-align: center

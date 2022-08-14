@@ -1,109 +1,137 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
+    "name": "Luis Ramirez",
+    "profession": "Passionate Software Developer",
+    "address": "Lima, Peru",
+    "email": "lou81804@gmail.com",
+    "website": "https://twitter.com/RetrainedPlayer",
+    "linkedin": "https://www.linkedin.com/in/luisramirez26/",
+    "github": "https://github.com/WiFo26",
+    "phone": "+51 959 696 190",
+    "avatar": "https://i.postimg.cc/kGYgD3K3/profile.jpg",
+    "description": [
+      "The ability to learn and familiarize myself with new technologies easily, my unstoppable effort and orientation towards achieving goals, and the insatiable hunger to face new challenges and acquire new experiences are characteristics that people notice in me.",
+      "I consider myself very passionate about technology and a lover of both personal and professional challenges. I feel very comfortable working in multidisciplinary teams and I support interculturality and mutual respect among all.",
+      "Let's connect and make the world a better place for everyone. 🦾🤖🖥️"
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Mechatronics Engineering",
+        "description": " Emgineering focused on the design and development of robotics and AI systems.",
+        "endDate": "Jan 2021",
+        "institution": "Ricardo Palma University",
+        "startDate": "Mar 2016",
+        "url": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/wxfwjoyvdtue0mtwykjz"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Globant Peru S.A.C",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": [
+          "Create automation frameworks highly maintainable and scalable",
+          "Create robust test cases for web UI and API services",
+          "Implement best practices applied to development of features",
+          "Implement behaviour driven development and data driven testing"
+        ],
+        "jobTitle": "Test Automation Engineer",
+        "startDate": "Dec 2021",
+        "urlCompanyLogo": "https://media-exp1.licdn.com/dms/image/C4D0BAQHF4XSNdWlkHg/company-logo_200_200/0/1656684098364?e=1668643200&v=beta&t=eY1yAhXJMje99pTqjg4X8AyrmsAToSzzxJ6Y38ts9SQ"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Synopsis S.A",
+        "endDate": "Dec 2021",
+        "jobDescription": [
+          "Implement SOAP and RESTful flows and services",
+          "Work with Azure and IBM Cloud services",
+          "Develop micro-services with Quarkus and Spring Boot",
+          "Programmin in PL/SQL and develop models in Oracle Database"
+        ],
+        "jobTitle": "Software Developer",
+        "startDate": "Mar 2021",
+        "urlCompanyLogo": "https://media-exp1.licdn.com/dms/image/C4E0BAQGIme-Q9CA7nA/company-logo_200_200/0/1616687228090?e=1668643200&v=beta&t=H4LdKhqwXuVKPUbbxf0yycmuWjJdvcwBbSlu2_58lS4"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "React.js",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Stylus",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stylus/stylus-original.svg"
+      },
+      {
+        "name": "HTML",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      },
+      {
+        "name": "Typescript",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+      },
+      {
+        "name": "Firebase",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+      },
+      {
+        "name": "Express.js",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+      },
+      {
+        "name": "Node.js",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      },
+      {
+        "name": "Jira",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+      },
+      {
+        "name": "Python",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
+      {
+        "name": "Java",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+      },
+      {
+        "name": "Ethereum",
+        "url": "https://pbs.twimg.com/profile_images/743335101484830720/6uAW2MgO_400x400.jpg"
+      },
+      {
+        "name": "Solidity",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"
+      },
+      {
+        "name": "Hardhat",
+        "url": "https://chainstack.com/wp-content/uploads/2021/12/hardhat.png"
+      },
+      {
+        "name": "Web3.js",
+        "url": "https://raw.githubusercontent.com/ChainSafe/web3.js/1.x/assets/logo/web3js.jpg"
+      },
+      {
+        "name": "Alchemy",
+        "url": "https://avatars.githubusercontent.com/u/49798644?s=200&v=4"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Blockchain",
+      "Ethereum",
+      "Dapps",
+      "Full Stack Development"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Spanish Native",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg"
       },
       {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "English C1",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
       }
     ]
   }

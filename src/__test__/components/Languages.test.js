@@ -1,9 +1,9 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import Languages from '../../components/Languages';
+import { shallow } from 'enzyme';
+import Language from '../../components/Language';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+  const languages = shallow(<Language />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);
@@ -12,9 +12,4 @@ describe('<Languages />', () => {
   test('Languages title', () => {
     expect(languages.find('.Languages-title').length).toEqual(1);
   });
-
-  test('Languages has 3 items', () => {
-    expect(languages.find('.Languages-item').length).toBeGreaterThan(2);
-  });
-
 });
